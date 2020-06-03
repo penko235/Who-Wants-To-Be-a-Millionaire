@@ -1,0 +1,91 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: #fff;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    background-color: orange;
+    color: #fff;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #56a5eb;
+    color: #fff;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+#question {
+    color: #fff;
+}
+
+.correct {
+    background-color: #28a745;
+}
+
+.incorrect {
+    background-color: #dc3545;
+}
+
+
+/* Board */
+
+#board {
+    display: flex;
+    justify-content: space-between;
+}
+
+.board-text {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.board-main-text {
+    text-align: center;
+}
+
+
+/* Icons for joker */
+
+.icons {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.icons h3 {
+    font-size: 2rem;
+}
+
+.icons i {
+    cursor: pointer;
+    background-color: #28a745;
+    border-radius: 50%;
+    padding: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+
+/* Flex columns for lifelines */
+
+.flexItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.flexItems>div {
+    padding: 2rem;
+}
