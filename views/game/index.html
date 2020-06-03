@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../home/app.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <title>Novarto - How to be a millionaire</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="game" class="justify-center flex-column">
+            <div id="board">
+                <div id="board-item">
+                    <p class="board-text">
+                        Question
+                    </p>
+                    <h1 class="board-main-text" id="questionCounter">
+                    </h1>
+                </div>
+                <div id="board-item">
+                    <p class="board-text">
+                        Score
+                    </p>
+                    <h1 class="board-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <h2 id="question">Question</h2>
+            <div class="choice-container">
+                <p class="choice-prefix">A:</p>
+                <p class="choice-text" data-number="1">Choice 1</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">B:</p>
+                <p class="choice-text" data-number="2">Choice 2</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">C:</p>
+                <p class="choice-text" data-number="3">Choice 3</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">D:</p>
+                <p class="choice-text" data-number="4">Choice 4</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lifelines -->
+    <section id="joker" class="icons">
+        <div class="flexItems">
+            <h1 class="board-main-text" id="lifelinesCounter">Lifenlines 0/3</h1>
+            <div>
+                <i id="call" class="fas fa-phone-volume"></i>
+                <div>
+                    <h3 id="callText">Call A Friend</h3>
+                </div>
+            </div>
+            <div>
+                <i id="fiftyFifty" class="fab fa-html5"></i>
+                <div>
+                    <h3 id="fiftyFiftyText">50:50</h3>
+                </div>
+            </div>
+            <div>
+                <i id="audience" class="fas fa-users"></i>
+                <div>
+                    <h3 id="audienceText">Audience</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    <footer>
+        <hr>
+        <p>Penko Gadzhev 2020</p>
+    </footer> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="/controllers/app.js"></script>
+</body>
+
+</html>
