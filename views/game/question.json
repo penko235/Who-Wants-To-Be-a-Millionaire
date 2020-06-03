@@ -1,0 +1,25 @@
+[{
+        "question": "Na kolko godini sum",
+        "choice1": "24",
+        "choice2": "26",
+        "choice3": "28",
+        "choice4": "22",
+        "answer": 1
+    },
+    {
+        "question": "Koq mi e lubimata igra na ps4",
+        "choice1": "Mortal Combat",
+        "choice2": "God Of War",
+        "choice3": "FIFA",
+        "choice4": "Need For Speed",
+        "answer": 3
+    },
+    {
+        "question": "Ot koi grad sum",
+        "choice1": "Pernik",
+        "choice2": "Stara Zagora",
+        "choice3": "Burgas",
+        "choice4": "Plovdiv",
+        "answer": 4
+    }
+]
